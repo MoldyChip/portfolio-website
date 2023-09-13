@@ -6,6 +6,13 @@ export default function NavBar() {
         <ul className="site-container">
             <CustomLink to="/projects">Projects</CustomLink>
             <CustomLink to="/about">About</CustomLink>
+            <Link className="icon-container" to="https://www.linkedin.com/in/jimmienakadaira/">
+            <img className="linkedin-icon" src="src\assets\linkedin-icon.png"/>
+            </Link>
+            <Link to="https://blue.mbsy.co/6t8l6p">
+                <img className='TE-icon' src='src\assets\TE-icon.png' />
+            </Link>
+
         </ul>
     </nav>
 }

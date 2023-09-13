@@ -5,6 +5,7 @@
 body {
   margin: 0;
   background-color: #121212;
+  
 }
 
 .container {
@@ -32,7 +33,12 @@ body {
   height: 700px;
   border-radius: 8px;
   display: block;
-  margin-top: 100px;
+  margin-top: 150px;
+  box-shadow: 0 4px 8px 0 #000000;
+  transition: 0.3s;
+  background-color: #333;
+  margin-left: 100px;
+
 }
 
 .site-title {
@@ -46,6 +52,7 @@ body {
   list-style: none;
   display: flex;
   gap: 1rem;
+  
 }
 
 .nav a {
@@ -68,12 +75,16 @@ body {
 
 .site-container{
   background-color: #333;
+  font-size: 20px;
+
 }
 
 .personal-container{
-  color: white;
-  margin-top: 100px;
+  color: #FFFFF0;
+  margin-top: 200px;
   padding-left: 1rem;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .personal-title{
@@ -90,8 +101,7 @@ body {
   list-style: none;
   display: flex;
   gap: 1rem;
-  color: white;
-  
+  color: #FFFFF0;
 }
 
 .VGD {
@@ -120,7 +130,83 @@ body {
 .card {
   box-shadow: 0 4px 8px 0 #000000;
   transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.16);
+  border-radius: 5px;
+  max-width: 500px;
+  text-decoration: none;
+  margin-top: 150px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 #BB86FC;
+  transition: 0.3s;
   background-color: #333;
   border-radius: 5px;
   max-width: 500px;
+  text-decoration: none;
+}
+
+a {
+  color: #FFFFF0;
+}
+
+.about-container {
+  color: #FFFFF0;
+  display: flex;
+}
+
+.about-card {
+  box-shadow: 0 4px 8px 0 #000000;
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.16);
+  border-radius: 5px;
+  text-align: left;
+  max-height: 550px;
+  max-width: 800px;
+  padding: 20px;
+  margin-top: 200px;
+  margin-left: 100px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.home-card {
+  box-shadow: 0 4px 8px 0 #000000;
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.16);
+  border-radius: 5px;
+  text-align: center;
+  max-height: 550px;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.linkedin-icon {
+  max-width: 100%;
+  height: 20px;
+  display: block;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  margin: auto;
+}
+
+.TE-icon {
+  max-width: 100%;
+  height: 20px;
+  display: block;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.TE-icon:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); 
+}
+
+.linkedin-icon:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); 
 }
