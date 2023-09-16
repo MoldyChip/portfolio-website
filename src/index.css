@@ -5,11 +5,13 @@
 body {
   margin: 0;
   background-color: #121212;
-  
+  padding: 0;
+  width: 80%; 
+  margin: auto;
+
 }
 
 .container {
-  margin: 1rem;
   text-align: center;
 }
 
@@ -21,6 +23,15 @@ body {
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.page-container {
+
+  background-color: rgba(255, 255, 255, 0.07);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh; 
 }
 
 .portrait-container{
@@ -102,6 +113,9 @@ body {
   display: flex;
   gap: 1rem;
   color: #FFFFF0;
+  background-color: rgba(255, 255, 255, 0.07);
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .VGD {
@@ -135,6 +149,7 @@ body {
   max-width: 500px;
   text-decoration: none;
   margin-top: 150px;
+  height: 550px
 }
 
 .card:hover {
