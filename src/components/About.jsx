@@ -1,14 +1,16 @@
 import React from 'react';
 
 export default function About() {
-        const message = `I am a full-stack developer with a strong foundation in web-based software development, thanks to my intensive coding bootcamp experience at TechElevator. During my time at TechElevator, I dedicated over 800 hours to learning and applying various programming concepts and technologies.
-        I am passionate about creating innovative and efficient solutions to real-world problems and thrive in collaborative team environments. Feel free to connect with me if you're interested in discussing web development projects or opportunities.`;
+
     return <>
-        <section className="about-container">
+        <section >
+          <div className='about-topcontainer'>
                 <img className="about-portrait" src="src\assets\Jimmie-TE.png"></img>
                 <h1 className='about-card'>
                 I am a full-stack developer with a strong foundation in web-based software development, thanks to my intensive coding bootcamp experience at TechElevator. During my time at TechElevator, I dedicated over 800 hours to learning and applying various programming concepts and technologies.
           </h1>
+          </div>
+          <div className='about-middlecontainer' >
           <div className='about-smallerCard'>
             <img className='software-icon' src='src\assets\c-sharp.png' />
           <h2 className='about-title'>
@@ -53,6 +55,7 @@ export default function About() {
           <p>
           I follow Agile methodologies to streamline development processes. I'm well-versed in version control with Git, and I'm proficient in using development environments like Visual Studio.
           </p>
+          </div>
           </div>
         </section>
         </>

@@ -1,3 +1,5 @@
+
+
 * {
   box-sizing: border-box;
 }
@@ -6,7 +8,7 @@ body {
   margin: 0;
   background-color: #121212;
   padding: 0;
-  width: 80%; 
+  width: 80%;
   margin: auto;
 
 }
@@ -31,11 +33,11 @@ body {
   background-color: rgba(255, 255, 255, 0.07);
   display: flex;
   justify-content: center;
-  min-height: 100vh; 
+  min-height: 100vh;
 }
 
-.portrait-container{
-  border:#333;
+.portrait-container {
+  border: #333;
   display: flex;
 }
 
@@ -79,7 +81,7 @@ body {
 }
 
 .site-title {
-  font-size:  2rem;
+  font-size: 2rem;
   background-color: #333;
 }
 
@@ -89,7 +91,7 @@ body {
   list-style: none;
   display: flex;
   gap: 1rem;
-  
+
 }
 
 .nav a {
@@ -107,16 +109,16 @@ body {
 
 .nav li:hover {
   background-color: #777;
-  
+
 }
 
-.site-container{
+.site-container {
   background-color: #333;
   font-size: 20px;
 
 }
 
-.personal-container{
+.personal-container {
   color: #FFFFF0;
   margin-top: 100px;
   padding-left: 1rem;
@@ -128,8 +130,8 @@ body {
   align-items: flex-start;
 }
 
-.personal-title{
-  font-size:x-large
+.personal-title {
+  font-size: x-large
 }
 
 .personal-name {
@@ -154,7 +156,6 @@ body {
   border-radius: 8px;
   display: block;
   border-radius: 5px 5px 0 0
-  
 }
 
 .tenmo {
@@ -196,12 +197,20 @@ a {
   color: #FFFFF0;
 }
 
-.about-container {
+.about-topcontainer {
   color: #FFFFF0;
   display: flex;
   background-color: rgba(255, 255, 255, 0.07);
-  min-height: 100vh;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.about-middlecontainer {
+  color: #FFFFF0;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.07);
+  flex-wrap:wrap;
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -218,7 +227,7 @@ a {
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-smallerCard {
@@ -233,8 +242,9 @@ a {
   margin-top: 50px;
   margin-left: 170px;
   margin-right: auto;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 10px;
+
 }
 
 .about-title {
@@ -284,15 +294,42 @@ a {
 }
 
 .TE-icon:hover {
-  transform: scale(1.05); 
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); 
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
 .linkedin-icon:hover {
-  transform: scale(1.05); 
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); 
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
 .icon-container {
   display: flex;
+}
+
+@media screen and (min-width: 2210px) {
+  .about-portrait {
+    max-width: 100%;
+    height: 700px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 #000000;
+    transition: 0.3s;
+    background-color: #333;
+    margin-left: 180px;
+
+  }
+
+  .about-card {
+    box-shadow: 0 4px 8px 0 #000000;
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.16);
+    border-radius: 5px;
+    text-align: left;
+    max-height: 550px;
+    max-width: 600px;
+    padding: 20px;
+    margin-left: 180px;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 }
