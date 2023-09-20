@@ -1,5 +1,3 @@
-
-
 * {
   box-sizing: border-box;
 }
@@ -29,7 +27,6 @@ body {
 }
 
 .page-container {
-
   background-color: rgba(255, 255, 255, 0.07);
   display: flex;
   justify-content: center;
@@ -308,6 +305,18 @@ a {
 }
 
 @media screen and (min-width: 2210px) {
+  .nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+  }
+  
   .about-portrait {
     max-width: 100%;
     height: 700px;
@@ -331,5 +340,267 @@ a {
     margin-left: 180px;
     margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .about-topcontainer {
+    color: #FFFFF0;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.07);
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 10px;
+  }
+
+  .about-middlecontainer {
+    color: #FFFFF0;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.07);
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 10px;
+  }
+
+  .personal-container {
+    margin-bottom: 500px;
+  }
+
+  .portrait {
+    margin-left: 250px;
+  }
+}
+
+@media screen and (max-width: 844px) {
+  .nav {
+    gap: 1rem;
+  }
+
+.about-portrait {
+  max-width: 100%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+.about-card {
+  font-size: medium;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+
+.about-smallerCard {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.about-title {
+  font-size: medium;
+}
+
+.about-p {
+  font-size: small;
+}
+
+.software-icon {
+  max-width: 100%;
+  height: 60px;
+}
+
+body {
+  background-color: #121212;
+  width:auto
+}
+
+.card {
+  height: auto;
+}
+
+.VGD {
+  max-width: 100%;
+}
+
+.project-title {
+  font-size: x-large;
+}
+
+.project-p {
+  font-size: medium;
+}
+}
+
+@media screen and (max-width: 1368px) {
+  .portrait {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+
+  .personal-container {
+    margin-bottom: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  .home-card {
+    margin: auto;
+  }
+
+  .portrait-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .personal-title {
+    font-size: larger;
+  }
+
+  .personal-name {
+    font-size: xx-large;
+  }
+
+  .portrait-card{
+    font-size: larger;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+.about-portrait {
+  max-width: 100%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.about-card {
+  padding: 20px;
+  font-size: medium;
+  margin: auto;
+}
+
+.about-smallerCard {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.about-title {
+  font-size: medium;
+}
+
+.about-p {
+  font-size: small;
+}
+
+.software-icon {
+  max-width: 100%;
+  height: 60px;
+}
+
+body {
+  background-color: #121212;
+  width:auto
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+
+.card {
+  margin-top: 20px;
+  margin-right:auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+
+}
+
+.project-title {
+  font-size: x-large;
+}
+
+.project-p {
+  font-size: medium;
+}
+
+
+}
+
+@media screen and (max-width: 912px) {
+  .portrait {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+
+  .personal-container {
+    margin-bottom: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  .home-card {
+    margin: auto;
+  }
+
+  .portrait-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 280px)  {
+  .about-portrait {
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .nav {
+    gap: 0.1rem;
+    padding: 0%;
+    margin: auto;
+  }
+
+  .linkedin-icon{
+    max-width: 20px;
+    gap: 0.1rem;
+    margin: auto;
+
+  }
+
+  .TE-icon {
+    max-width: 20px;
+    gap: 0.1rem;
+    margin: auto;
+  }
+
+  .site-container{
+    font-size: medium;
+  }
+
+  .site-title {
+    font-size:x-large;
+  }
+
+  .project-title {
+    font-size: larger;
+  }
+  
+  .project-p {
+    font-size: small;
   }
 }

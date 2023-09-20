@@ -16,7 +16,7 @@ export default function About() {
           <h2 className='about-title'>
               Object Orientated Programming
           </h2>
-          <p>
+          <p className='about-p'>
           I have a deep understanding of object-oriented programming principles. This knowledge allows me to build robust and scalable applications.
           </p>
           </div>
@@ -29,7 +29,7 @@ export default function About() {
           <h2 className='about-title'>
               Web Application Development
           </h2>
-          <p>
+          <p className='about-p'>
           I have experience with modern frontend frameworks like Vue.js. On the backend, I excel in using ASP.NET Web API for building RESTful services.
           </p>
           </div>
@@ -38,7 +38,7 @@ export default function About() {
           <h2 className='about-title'>
               Database Programming
           </h2>
-          <p>
+          <p className='about-p'>
           With expertise in ADO.NET, database table design, SQL, and MS SQL Server, I can efficiently manage and manipulate data.
           </p>
           </div>
@@ -52,7 +52,7 @@ export default function About() {
           <h2 className='about-title'>
               Development Tools and Techniques
           </h2>
-          <p>
+          <p className='about-p'> 
           I follow Agile methodologies to streamline development processes. I'm well-versed in version control with Git, and I'm proficient in using development environments like Visual Studio.
           </p>
           </div>
