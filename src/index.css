@@ -563,6 +563,29 @@ body {
 }
 
 @media screen and (max-width: 280px)  {
+  .portrait {
+    height: 300px;
+  }
+
+  .personal-container{
+    font-size: small;
+  }
+
+  .home-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .personal-name {
+    font-size: x-large;
+  }
+  
+  .portrait-card{
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .about-portrait {
     height: 400px;
     margin-top: 20px;
