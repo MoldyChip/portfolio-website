@@ -1,5 +1,9 @@
 {
   "name": "self-website",
+  "alias": [
+      "jimmienakadaira.com",
+      "www.jimmienakadaira.com"
+  ],
   "private": true,
   "version": "0.0.0",
   "type": "module",
