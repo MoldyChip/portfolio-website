@@ -1,7 +1,9 @@
+import Jimmie from '../assets/Jimmie.png'
+
 export default function Home() {
     return <div className="page-container">
         <div className="portrait-container">
-        <img className="portrait" src="\src\assets\Jimmie.png" />
+        <img className="portrait" src={Jimmie} />
         <div className="personal-container">
         <div className="home-card">
         <h2 className="personal-title">Full Stack Developer</h2>
