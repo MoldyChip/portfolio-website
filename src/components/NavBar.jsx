@@ -1,4 +1,6 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import linkedin from '../assets/linkedin-icon.png'
+import TE from '../assets/TE-icon.png'
 
 export default function NavBar() {
     return <nav className="nav">
@@ -7,10 +9,10 @@ export default function NavBar() {
             <CustomLink to="/projects">Projects</CustomLink>
             <CustomLink to="/about">About</CustomLink>
             <Link className="icon-container" to="https://www.linkedin.com/in/jimmienakadaira/">
-            <img className="linkedin-icon" src="src\assets\linkedin-icon.png"/>
+            <img className="linkedin-icon" src={linkedin}/>
             </Link>
             <Link to="https://blue.mbsy.co/6t8l6p">
-                <img className='TE-icon' src='src\assets\TE-icon.png' />
+                <img className='TE-icon' src={TE} />
             </Link>
 
         </ul>

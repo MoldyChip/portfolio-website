@@ -1,18 +1,29 @@
 import React from 'react';
+import jimmie from '../assets/Jimmie-TE.png'
+import cSharp from '../assets/c-sharp.png'
+import javascript from '../assets/javascript.png'
+import vue from '../assets/vue.png'
+import bootstrap from '../assets/bootstrap.png'
+import ssms from '../assets/ssms.png'
+import agile from '../assets/agile.png'
+import git from '../assets/git.png'
+import vsCode from '../assets/vs-code.png'
+import vs from '../assets/vs.png'
+
 
 export default function About() {
 
     return <>
         <section >
           <div className='about-topcontainer'>
-                <img className="about-portrait" src="src\assets\Jimmie-TE.png"></img>
+                <img className="about-portrait" src={jimmie}></img>
                 <h1 className='about-card'>
                 I am a full-stack developer with a strong foundation in web-based software development, thanks to my intensive coding bootcamp experience at TechElevator. During my time at TechElevator, I dedicated over 800 hours to learning and applying various programming concepts and technologies.
           </h1>
           </div>
           <div className='about-middlecontainer' >
           <div className='about-smallerCard'>
-            <img className='software-icon' src='src\assets\c-sharp.png' />
+            <img className='software-icon' src={cSharp} />
           <h2 className='about-title'>
               Object Orientated Programming
           </h2>
@@ -22,9 +33,9 @@ export default function About() {
           </div>
           <div className='about-smallerCard'>
             <div className='icon-container'>
-            <img src='src\assets\javascript.png' className='software-icon' />
-            <img src='src\assets\vue.png' className='software-icon' />
-            <img src='src\assets\bootstrap.png' className='software-icon' />
+            <img src={javascript} className='software-icon' />
+            <img src={vue} className='software-icon' />
+            <img src={bootstrap} className='software-icon' />
             </div>
           <h2 className='about-title'>
               Web Application Development
@@ -34,7 +45,7 @@ export default function About() {
           </p>
           </div>
           <div className='about-smallerCard'>
-            <img src='src\assets\ssms.png' className='software-icon' />
+            <img src={ssms} className='software-icon' />
           <h2 className='about-title'>
               Database Programming
           </h2>
@@ -44,10 +55,10 @@ export default function About() {
           </div>
           <div className='about-smallerCard'>
           <div className='icon-container'>
-            <img src='src\assets\agile.png' className='software-icon' />
-            <img src='src\assets\git.png' className='software-icon' />
-            <img src='src\assets\vs-code.png' className='software-icon' />
-            <img src='src\assets\vs.png' className='software-icon' />
+            <img src={agile} className='software-icon' />
+            <img src={git} className='software-icon' />
+            <img src={vsCode} className='software-icon' />
+            <img src={vs} className='software-icon' />
             </div>
           <h2 className='about-title'>
               Development Tools and Techniques
