@@ -4,15 +4,20 @@ import { resolve } from 'path'
 import alias from '@rollup/plugin-alias'
 
 const projectRootDir = resolve(__dirname);
-
+const root = resolve(__dirname, 'src');
+const outDir = resolve(__dirname, 'dist');
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), alias],
   build: {
+    outDir,
+    emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(__dirname, "index.html"),
-        nested: resolve(__dirname, 'nested/index.html')
+        main: resolve(root, "index.html"),
+        about: resolve(root, 'about', 'index.html'),
+        projects: resolve(root, 'projects', 'index.html'),
+        NotFound: resolve(root, 'NotFound', 'index.html'),
       },
     },
   },
@@ -20,11 +25,5 @@ export default defineConfig({
     alias: {
       "@": resolve(projectRootDir, "src"),
     },
-  },
-  server: {
-    host: '0.0.0.0',
-    port: 10086,
-    open: false, 
-    cors: true, 
   },
 })
