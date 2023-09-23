@@ -4,7 +4,7 @@ import Projects from './Projects/Projects'
 import About from './About/About'
 import Home from './components/Home'
 import NotFound from './NotFound/NotFound'
-import {Route, Routes} from "react-router-dom"
+import { Route, Routes} from "react-router-dom"
 
 
 function App() {
@@ -12,12 +12,12 @@ function App() {
     <>
    <NavBar />
    <div className="container">
-   <Routes>
+      <Routes>
     <Route path='/' element={<Home />} />
     <Route path='/projects' element={<Projects />} />
     <Route path='/about' element={<About />} />
     <Route path='*' element={<NotFound />} />
-   </Routes>
+      </Routes>
    </div>
    </>
   )
