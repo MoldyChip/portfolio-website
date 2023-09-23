@@ -1,8 +1,8 @@
 {
   "name": "self-website",
   "alias": [
-      "jimmienakadaira.com",
-      "www.jimmienakadaira.com"
+    "jimmienakadaira.com",
+    "www.jimmienakadaira.com"
   ],
   "private": true,
   "version": "0.0.0",
@@ -23,6 +23,7 @@
     "react-router-dom": "^6.15.0"
   },
   "devDependencies": {
+    "@rollup/plugin-alias": "^5.0.0",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
