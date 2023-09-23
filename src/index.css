@@ -626,3 +626,8 @@ body {
     font-size: small;
   }
 }
+
+.not-found {
+  background-color: #FFFFF0;
+  min-height: 100vh;
+}
