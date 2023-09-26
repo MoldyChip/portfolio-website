@@ -1,4 +1,13 @@
 import VGD from '../assets/VGD/VGD.png'
+import VGD2 from '../assets/VGD/VGD2.png'
+import VGD3 from '../assets/VGD/VGD3.png'
+import VGD4 from '../assets/VGD/VGD4.png'
+import VGD5 from '../assets/VGD/VGD5.png'
+import VGD6 from '../assets/VGD/VGD6.png'
+import VGD7 from '../assets/VGD/VGD7.png'
+import VGD8 from '../assets/VGD/VGD8.png'
+import VGD9 from '../assets/VGD/VGD9.png'
+
 import tenmo from '../assets/tenmo/Tenmo-payment.png'
 import candyshop from '../assets/candyshop/CandyShop.png'
 import React, {useState} from "react"
@@ -6,7 +15,14 @@ import {BsArrowLeftCircleFill, BsArrowRightCircleFill} from 'react-icons/bs'
 
 const projectVGD = [
     {src: VGD, id: "VGD1", className: "VGD"},
-    {src: 'src/assets/VGD/VGD2.png', id: "VGD2", className: "VGD"}
+    {src: VGD2, id: "VGD2", className: "VGD"},
+    {src: VGD3, id: "VGD3", className: "VGD"},
+    {src: VGD4, id: "VGD4", className: "VGD"},
+    {src: VGD5, id: "VGD5", className: "VGD"},
+    {src: VGD6, id: "VGD6", className: "VGD"},
+    {src: VGD7, id: "VGD7", className: "VGD"},
+    {src: VGD8, id: "VGD8", className: "VGD"},
+    {src: VGD9, id: "VGD9", className: "VGD"}
 ]
 
 const projectTenmo = [
