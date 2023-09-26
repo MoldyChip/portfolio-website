@@ -7,9 +7,14 @@ import VGD6 from '../assets/VGD/VGD6.png'
 import VGD7 from '../assets/VGD/VGD7.png'
 import VGD8 from '../assets/VGD/VGD8.png'
 import VGD9 from '../assets/VGD/VGD9.png'
-
 import tenmo from '../assets/tenmo/Tenmo-payment.png'
+import tenmo2 from '../assets/tenmo/tenmo2.png'
+import tenmo3 from '../assets/tenmo/tenmo3.png'
+import tenmo4 from '../assets/tenmo/tenmo4.png'
 import candyshop from '../assets/candyshop/CandyShop.png'
+import candyshop2 from '../assets/candyshop/candyshop2.png'
+import candyshop3 from '../assets/candyshop/candyshop3.png'
+import candyshop4 from '../assets/candyshop/candyshop4.png'
 import React, {useState} from "react"
 import {BsArrowLeftCircleFill, BsArrowRightCircleFill} from 'react-icons/bs'
 
@@ -27,12 +32,16 @@ const projectVGD = [
 
 const projectTenmo = [
     {src: tenmo, id: "tenmo1", className: "tenmo"},
-    {src: tenmo, id: "tenmo2", className: "tenmo"}
+    {src: tenmo2, id: "tenmo2", className: "tenmo"},
+    {src: tenmo3, id: "tenmo3", className: "tenmo"},
+    {src: tenmo4, id: "tenmo4", className: "tenmo"}
 ]
 
 const projectCandyshop = [
     {src: candyshop, id: "candyshop1", className: "candyshop"},
-    {src: candyshop, id: "candyshop2", className: "candyshop"}
+    {src: candyshop2, id: "candyshop2", className: "candyshop"},
+    {src: candyshop3, id: "candyshop3", className: "candyshop"},
+    {src: candyshop4, id: "candyshop4", className: "candyshop"},
 ]
 
 export default function Projects() {
