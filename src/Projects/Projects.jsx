@@ -15,6 +15,7 @@ import candyshop from '../assets/candyshop/CandyShop.png'
 import candyshop2 from '../assets/candyshop/candyshop2.png'
 import candyshop3 from '../assets/candyshop/candyshop3.png'
 import candyshop4 from '../assets/candyshop/candyshop4.png'
+import candyshop5 from '../assets/candyshop/candyshop5.png'
 import React, {useState} from "react"
 import {BsArrowLeftCircleFill, BsArrowRightCircleFill} from 'react-icons/bs'
 
@@ -42,6 +43,7 @@ const projectCandyshop = [
     {src: candyshop2, id: "candyshop2", className: "candyshop"},
     {src: candyshop3, id: "candyshop3", className: "candyshop"},
     {src: candyshop4, id: "candyshop4", className: "candyshop"},
+    {src: candyshop5, id: "candyshop5", className: "candyshop"},
 ]
 
 export default function Projects() {
