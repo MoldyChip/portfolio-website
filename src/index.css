@@ -147,26 +147,66 @@ body {
   min-height: 100vh;
 }
 
-.VGD {
-  max-width: 100%;
-  height: 300px;
-  border-radius: 8px;
-  display: block;
-  border-radius: 5px 5px 0 0
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.tenmo {
-  max-width: 100%;
-  height: 300px;
-  border-radius: 8px;
-  display: block;
+.indicators {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
 }
 
-.candyshop {
+.indicator {
+  background-color: white;
+  height: .5rem;
+  width: .5rem;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #555;
+}
+
+.indicator-inactive {
+  background-color: gray;
+}
+
+.slide-hidden {
+  display: none;
+}
+
+.slide {
   max-width: 100%;
   height: 300px;
   border-radius: 8px;
-  display: block;
+  border-radius: 5px 5px 0 0;
+  position:relative;
+  z-index: 0;
+}
+
+.arrow {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  filter: drop-shadow(0px 0px 5px #555)
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 1rem;
+}
+
+.arrow-right {
+  right: 1rem;
 }
 
 .card {
@@ -178,6 +218,10 @@ body {
   text-decoration: none;
   margin-top: 150px;
   height: 550px
+}
+
+.bottom-card {
+  text-decoration: none;
 }
 
 .card:hover {
@@ -302,6 +346,19 @@ a {
 
 .icon-container {
   display: flex;
+}
+
+.not-found {
+  background-color: #FFFFF0;
+  min-height: 100vh;
+}
+
+
+
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0;
 }
 
 @media screen and (min-width: 2210px) {
@@ -728,7 +785,5 @@ body {
   }
 }
 
-.not-found {
-  background-color: #FFFFF0;
-  min-height: 100vh;
-}
+
+
