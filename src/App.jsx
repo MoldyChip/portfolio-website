@@ -5,6 +5,7 @@ import About from './About/About'
 import Home from './HomePage/Home'
 import NotFound from './NotFound/NotFound'
 import { Route, Routes} from "react-router-dom"
+import { Analytics } from '@vercel/analytics/react';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Route path='/about' element={<About />} />
     <Route path='*' element={<NotFound />} />
       </Routes>
+      <Analytics />
    </div>
    </>
   )
