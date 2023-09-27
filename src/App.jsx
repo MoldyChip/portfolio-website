@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from './components/NavBar'
 import Projects from './Projects/Projects'
 import About from './About/About'
-import Home from './components/Home'
+import Home from './HomePage/Home'
 import NotFound from './NotFound/NotFound'
 import { Route, Routes} from "react-router-dom"
 
