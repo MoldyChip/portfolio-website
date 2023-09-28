@@ -1,4 +1,4 @@
-import Jimmie from '../assets/Jimmie.png'
+import {Jimmie} from '../assets/images.jsx'
 import ContactMe from '../components/Contact-Me.jsx'
 
 export default function Home() {

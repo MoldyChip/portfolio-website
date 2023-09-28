@@ -156,6 +156,15 @@ body {
   position: relative;
 }
 
+.carousel img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+}
+
 .indicators {
   display: flex;
   position: absolute;
@@ -205,6 +214,7 @@ body {
 
 .arrow-left {
   left: 1rem;
+  z-index: 1;
 }
 
 .arrow-right {
@@ -402,6 +412,27 @@ form button {
   width: 13px;
   padding: 0;
 }
+
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFF;
+  padding: 0px;
+  
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .7);
+  z-index: 1000;
+}
+
 
 @media screen and (min-width: 2210px) {
   .nav {
