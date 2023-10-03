@@ -4,7 +4,7 @@ import { jimmie, cSharp, javascript, vue, bootstrap, ssms, agile, git, vsCode, v
 
 export default function About() {
   return <>
-    <section >
+    <section className='about-container'>
       <div className='about-topcontainer'>
         <img className="about-portrait" src={jimmie}></img>
         <h1 className='about-card'>
