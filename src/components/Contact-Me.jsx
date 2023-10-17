@@ -17,7 +17,7 @@ export default function Contact() {
     }
 
     return <form className="contact-form" ref={form} onSubmit={handleSubmit}>
-        <h1>Contact <span>Me</span></h1>
+        <h1 className='contact-me'>Contact <span>Me</span></h1>
         <input type='text' name='user_name' required placeholder='Enter name' />
         <input type='email' name='user_email' required  placeholder='example@gmail.com' />
         <input type='phone' name='user_phone' placeholder='Enter phone (optional)' />

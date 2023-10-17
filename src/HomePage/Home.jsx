@@ -1,5 +1,4 @@
 import {Jimmie} from '../assets/images.jsx'
-import ContactMe from '../components/Contact-Me.jsx'
 
 export default function Home() {
     return <div className="page-container">
@@ -17,7 +16,6 @@ export default function Home() {
 
         </div>
         <div className='contact-container' >
-        <ContactMe />
         </div>
         </div>
 }
