@@ -16,6 +16,9 @@ import candyshop2 from '../assets/candyshop/candyshop2.png'
 import candyshop3 from '../assets/candyshop/candyshop3.png'
 import candyshop4 from '../assets/candyshop/candyshop4.png'
 import candyshop5 from '../assets/candyshop/candyshop5.png'
+import priceChecker from '../assets/priceChecker/priceChecker.png'
+import priceChecker2 from '../assets/priceChecker/priceChecker2.png'
+import priceChecker3 from '../assets/priceChecker/priceChecker3.png'
 import jimmie from '../assets/Jimmie-TE.png'
 import cSharp from '../assets/c-sharp.png'
 import javascript from '../assets/javascript.png'
@@ -57,11 +60,18 @@ const projectCandyshop = [
     {src: candyshop5, id: "candyshop5", className: "candyshop"},
 ]
 
+const projectPriceChecker = [
+    {src: priceChecker, id: "priceChecker1", className: "priceChecker"},
+    {src: priceChecker2, id: "priceChecker2", className: "priceChecker"},
+    {src: priceChecker3, id: "priceChecker3", className: "priceChecker"}
+]
+
 
 export {
     projectVGD,
     projectTenmo,
     projectCandyshop,
+    projectPriceChecker,
     jimmie,
     cSharp,
     javascript,

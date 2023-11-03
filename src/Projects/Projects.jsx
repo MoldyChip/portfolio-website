@@ -1,7 +1,7 @@
 import React from "react"
 
 import Carousel from '../components/Carousel.jsx'
-import { projectVGD, projectTenmo, projectCandyshop } from '../assets/images.jsx'
+import { projectVGD, projectTenmo, projectCandyshop, projectPriceChecker } from '../assets/images.jsx'
 
 export default function Projects() {
 
@@ -34,6 +34,16 @@ export default function Projects() {
                     <a className='bottom-card' href="https://gitfront.io/r/jimknaka/iqJkEPPFCDsE/candy-shop/" >
                         <h1 className="project-title">CandyShop</h1>
                         <p className="project-p">Is a C# application that simulates a cash register at a candy store. It keeps track of your balance, the shop's inventory and logs a receipt of the transaction.</p>
+                    </a>
+                </li>
+            </div>
+            <div className="card" >
+                <li>
+                    <Carousel data={projectPriceChecker} priceClicked={true} />
+
+                    <a className='bottom-card' href="https://github.com/MoldyChip/price-checker" >
+                        <h1 className="project-title">Price Checker</h1>
+                        <p className="project-p">RESTful API server with ASP.NET and Vue.js client. Allows the user to view the top 5 lowest priced gaming laptops from amazon/newegg/bestbuy using the Cheerio library. Used SSMS for SQL database.</p>
                     </a>
                 </li>
             </div>
